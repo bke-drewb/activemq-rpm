@@ -1,7 +1,7 @@
 activemq-rpm
 ================
 
-Spec and sources to build activemq 5.7 binary and source rpm.
+Spec and sources to build activemq 5.8 binary and source rpm.
 
 My starting point was the Puppet Enterprise src rpm located here:
 
@@ -10,7 +10,7 @@ http://yum.puppetlabs.com/enterprise/sources/2.6.0/sources/el/6/SRPMS/pe-activem
 I left the original activemq tarball out of the repo. To get it do the following:
 
     cd SOURCES
-    wget http://apache.mirror.nexicom.net/activemq/apache-activemq/5.7.0/apache-activemq-5.7.0-bin.tar.gz
+    wget http://apache.mirror.nexicom.net/activemq/apache-activemq/5.8.0/apache-activemq-5.7.0-bin.tar.gz
 
 Go to
 http://www.apache.org/dyn/closer.cgi?path=%2Factivemq%2Fapache-activemq%2F5.7.0%2Fapache-activemq-5.7.0-bin.tar.gz
